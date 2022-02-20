@@ -1,10 +1,10 @@
 .main-footer{
     color: black;
     background-color: #9FBFEE;
-   margin-top: 2em;
+     margin-top: 2em;
     position: relative;
     bottom: 0;
-    height: 50vh;
+    height: 62vh;
     width: 100%;   
 }
 .row{
@@ -18,7 +18,7 @@
     padding-right: 5%;
 }
 .col-3{
-    padding-left: 20% ;
+    padding-left: 15% ;
     padding-right: 10%;
 }
 
@@ -29,16 +29,26 @@ h4{
     padding-left: 40px;
 }
 .birender{
-   margin-left: 20%;
+    margin-left: 23%;
+   
 }
 
 h3{
     font-size: 32px;
     text-align: center;
-    padding-top: 40px;
+    
     color: #434343;
 }
 p{
     padding-left: 1%;
 }
-
+.icons{
+    font-size: 35px;
+    display: flex;
+    gap:30px;
+    position: relative;
+    left:20px;
+    top:30px;
+    color: black;
+   
+}

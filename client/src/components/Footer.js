@@ -1,6 +1,9 @@
 import React from 'react'
-import './Footer.css'
-
+import './Footer.css';
+import { FaYoutube, FaFacebook } from 'react-icons/fa';
+import { HiMail } from 'react-icons/hi';
+import { BsTwitter} from 'react-icons/bs';
+import image1 from './image/cuh.png';
 const Footer = () => {
 return (
     <div className= "main-footer">
@@ -9,8 +12,10 @@ return (
 
  {/* /* col 1 */}
  <div className="col-1"> 
- 
- <h3>Central University of Haryana</h3>
+ <div className='logo'><img src={image1} style={{height:'120px', width: '110px', paddingLeft: '120px', marginTop: '30px'}}/></div> 
+ <a href='https://www.cuh.ac.in//' target="_blank" style={{textDecoration:'none'}}>
+   <h3>Central University of Haryana</h3>
+ </a>
 
  
  </div>
@@ -23,6 +28,13 @@ return (
          <li>Services</li>
          <li>Campus Safety</li>
      </ul>
+     <br></br>
+              <div className='icons' style={{marginLeft: '30px'}}>
+        <a href='https://www.facebook.com/centraluniversityofharyanaofficial/' target="_blank" style={{textDecoration:'none'}}> <FaFacebook/></a>
+        <a href='https://www.youtube.com/channel/UC0bisUxVLYPfAihXJLnNRJg'target="_blank" style={{textDecoration:'none'}}><FaYoutube/></a>
+        <a href='https://twitter.com/CUHofficial'target="_blank" style={{textDecoration:'none'}}><BsTwitter/></a>
+        <a href='https://www.facebook.com/centraluniversityofharyanaofficial/'target="_blank" style={{textDecoration:'none'}}><HiMail/></a>
+     </div>
  </div>
  {/* col 3  */}
  <div className="col-3">
@@ -32,12 +44,15 @@ return (
          <li>About</li>
          <li>Capabilities </li>
          <li>Careers</li>
-              </ul>
+              </ul> 
             </div>
           </div>
-          <br></br>
-          <br></br>
+          
+         
           <hr/>
+
+         
+
           <br></br>
           <div className="row">
            <p className="col-small">

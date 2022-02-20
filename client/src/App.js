@@ -11,9 +11,11 @@ function App() {
     <div className="content-wrap">
       <Process/> 
       <Footer />
+      
+     
+    </div>
        {/* Hello World */}
       
-    </div>
     </div>
     
   
