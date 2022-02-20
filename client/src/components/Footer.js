@@ -43,7 +43,7 @@ return (
            <p className="col-small">
                Copyright &copy;{new Date().getFullYear()} CUH | All right reserved <br></br>
               </p>
-              <p className="birender">Website Designed and Maintained by BytecodeLearners</p>
+              <p className="birender">Website Designed and Maintained by BytecodeLearners</p> 
           </div> 
            
       </div>
