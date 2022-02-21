@@ -12,12 +12,16 @@ return (
 
  {/* /* col 1 */}
  <div className="col-1"> 
- <div className='logo'><img src={image1} style={{height:'120px', width: '110px', paddingLeft: '120px', marginTop: '30px'}}/></div> 
+ <div className='logo'>
+ <a href='https://www.cuh.ac.in//' target="_blank" style={{textDecoration:'none'}}>
+     <img src={image1} style={{height:'120px', width: '110px', paddingLeft: '150px', marginTop: '30px'}}/>
+     </a>
+    </div> 
+   
  <a href='https://www.cuh.ac.in//' target="_blank" style={{textDecoration:'none'}}>
    <h3>Central University of Haryana</h3>
  </a>
 
- 
  </div>
  {/* col 2 */}
  <div className="col-2">
@@ -33,7 +37,7 @@ return (
         <a href='https://www.facebook.com/centraluniversityofharyanaofficial/' target="_blank" style={{textDecoration:'none'}}> <FaFacebook/></a>
         <a href='https://www.youtube.com/channel/UC0bisUxVLYPfAihXJLnNRJg'target="_blank" style={{textDecoration:'none'}}><FaYoutube/></a>
         <a href='https://twitter.com/CUHofficial'target="_blank" style={{textDecoration:'none'}}><BsTwitter/></a>
-        <a href='https://www.facebook.com/centraluniversityofharyanaofficial/'target="_blank" style={{textDecoration:'none'}}><HiMail/></a>
+        <a href='https://mail.google.com/mail/u/0/#inbox'target="_blank" style={{textDecoration:'none'}}><HiMail/></a>
      </div>
  </div>
  {/* col 3  */}
