@@ -12,7 +12,6 @@ function App() {
       <Process/> 
       <Footer />
       
-     
     </div>
        {/* Hello World */}
       

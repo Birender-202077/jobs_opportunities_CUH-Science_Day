@@ -14,7 +14,7 @@ return (
  <div className="col-1"> 
  <div className='logo'>
  <a href='https://www.cuh.ac.in//' target="_blank" style={{textDecoration:'none'}}>
-     <img src={image1} style={{height:'120px', width: '110px', paddingLeft: '150px', marginTop: '30px'}}/>
+     <img src={image1} style={{height:'120px', width: '110px', paddingLeft: '120px', marginTop: '30px'}}/>
      </a>
     </div> 
    
@@ -57,7 +57,7 @@ return (
 
          
 
-          <br></br>
+
           <div className="row">
            <p className="col-small">
                Copyright &copy;{new Date().getFullYear()} CUH | All right reserved <br></br>
