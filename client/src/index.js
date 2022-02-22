@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Footer from './components/Footer'
 import Process from './components/Process'
-import './components/Registration.css';
 
 ReactDOM.render(
   <React.StrictMode>
